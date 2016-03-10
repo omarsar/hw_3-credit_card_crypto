@@ -5,7 +5,7 @@ module LuhnValidator
 	# returns: true/false whether last digit is correct
 	
 	#Faster checksum
-	def validate_checksum_elvis
+	def validate_checksum
 		nums_a = number.to_s.chars.map(&:to_i)
 		sum = 0
 
